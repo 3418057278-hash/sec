@@ -9,7 +9,7 @@ on:
         default: false
   # 使用 GitHub Actions 的日程时把下面三行注释删掉；用外部 cron 不用管
      schedule:
-         - cron: "3 3 * * *"
+         - cron: "10 3 * * *"
 
 concurrency:
   group: douyin-daily-sender
